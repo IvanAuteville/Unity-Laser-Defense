@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7303424309378697516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7303424309378697517}
+  - component: {fileID: 7303424309378697518}
+  m_Layer: 0
+  m_Name: Pool Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7303424309378697517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7303424309378697516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.784365, y: -0.23765196, z: -15.199219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7303424309378697518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7303424309378697516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604829f895e851f4185324057637b6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerProjectiles:
+  - {fileID: 7639314059264853387, guid: 9b20bfa3b0da51b46a1ac06893d821a5, type: 3}
+  - {fileID: 7639314059264853387, guid: 515586afa62d74f4a94f0b9a7eed23c1, type: 3}
+  - {fileID: 7639314059264853387, guid: 69318ed82caf2ed43ad06209214daa28, type: 3}
+  enemiesProjectiles:
+  - {fileID: 7639314059264853387, guid: 5eb564cc6163cf7489891a90b5016c1d, type: 3}
+  - {fileID: 7639314059264853387, guid: 77e9e07480ebd284494fc24cb8dfc52b, type: 3}
+  - {fileID: 7639314059264853387, guid: 74959439c25a36a4bbab750494702a8a, type: 3}
+  VFX:
+  - {fileID: 517987856, guid: a435424003bdfc74485607bf3145bc14, type: 3}
+  - {fileID: 425049603441015890, guid: 967e4d080e2e6284b8cdfd2153f751e1, type: 3}
+  - {fileID: 6525718669095793782, guid: d577108c0530ba84aa583164d9ecc5a1, type: 3}
+  - {fileID: 6525718669095793782, guid: 2074eefcd36778e409e18938cf72fe56, type: 3}
+  - {fileID: 6525718669095793782, guid: 3c53728b5a0ebee4f940a6b3d5ad13ee, type: 3}
+  - {fileID: 6525718669095793782, guid: 3a0233fe57083494fbb22d3e28cac034, type: 3}
+  - {fileID: 6751863312408781546, guid: 1ec1c0f916ab7e943becbd7d14baf6f2, type: 3}
+  enemies:
+  - {fileID: 2995965032400933989, guid: b66813af8ad1ed445ab876d066671059, type: 3}
+  - {fileID: 2995965032400933989, guid: 610e007a4271a9b4f9d0678edd50531b, type: 3}
+  - {fileID: 2995965032400933989, guid: 7e35ded30c31e9340bf47ef370b846d0, type: 3}
+  - {fileID: 2995965032400933989, guid: 968b0b5cd765f8d4fb60f8541052b722, type: 3}
